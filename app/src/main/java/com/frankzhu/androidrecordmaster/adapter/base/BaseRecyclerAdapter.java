@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 
-import com.ithooks.android.xreap.log.LogUtils;
+import com.frankzhu.androidrecordmaster.log.LogUtils;
 
 import java.util.ArrayList;
 import java.util.List;

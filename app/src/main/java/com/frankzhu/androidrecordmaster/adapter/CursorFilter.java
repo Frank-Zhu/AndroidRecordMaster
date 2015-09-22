@@ -17,14 +17,14 @@ import android.widget.Filter;
 public class CursorFilter extends Filter {
     CursorFilterClient mClient;
 
-    interface CursorFilterClient {
+    public interface CursorFilterClient {
         CharSequence convertToString(Cursor cursor);
         Cursor runQueryOnBackgroundThread(CharSequence constraint);
         Cursor getCursor();
         void changeCursor(Cursor cursor);
     }
 
-    CursorFilter(CursorFilterClient client) {
+    public CursorFilter(CursorFilterClient client) {
         mClient = client;
     }
 
