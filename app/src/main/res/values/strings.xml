@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">AndroidRecordMaster</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">录大师</string>
+    <string name="action_settings">设置</string>
 </resources>
