@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">录大师</string>
     <string name="action_settings">设置</string>
+    <string name="start_record">开始录音</string>
 </resources>

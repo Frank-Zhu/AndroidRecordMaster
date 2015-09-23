@@ -1,7 +1,7 @@
 package com.frankzhu.androidrecordmaster.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.frankzhu.androidrecordmaster.R;
-import com.frankzhu.androidrecordmaster.utils.SnackBarHelper;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -32,7 +31,7 @@ public class HomeActivity extends AppCompatActivity {
 
     @OnClick(R.id.fab)
     void onAddRecord(View view) {
-        SnackBarHelper.showSnackBar(view, "Replace with your own action");
+        startActivity(new Intent(HomeActivity.this, AddRecordActivity.class));
     }
 
     @Override

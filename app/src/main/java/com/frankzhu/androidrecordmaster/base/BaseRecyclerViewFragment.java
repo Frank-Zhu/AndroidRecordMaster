@@ -1,4 +1,4 @@
-package com.frankzhu.androidrecordmaster.fragment;
+package com.frankzhu.androidrecordmaster.base;
 
 import android.support.v7.widget.RecyclerView;
 

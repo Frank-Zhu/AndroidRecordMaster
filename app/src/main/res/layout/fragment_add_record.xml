@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchActivityStyle"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/normal_margin"
+        android:padding="@dimen/normal_margin"
+        android:textSize="40sp"
+        tools:text="00:01" />
+
+    <Button
+        android:layout_width="@dimen/start_record_width"
+        android:layout_height="@dimen/start_record_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/normal_margin"
+        android:background="@drawable/selector_record_btn"
+        android:gravity="center"
+        android:src="@drawable/selector_record_btn"
+        android:text="@string/start_record"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>

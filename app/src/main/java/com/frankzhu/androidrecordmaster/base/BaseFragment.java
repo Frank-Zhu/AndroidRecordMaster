@@ -1,4 +1,4 @@
-package com.frankzhu.androidrecordmaster.fragment;
+package com.frankzhu.androidrecordmaster.base;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
