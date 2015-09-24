@@ -11,4 +11,6 @@
 
     <dimen name="start_record_width">120dp</dimen>
     <dimen name="start_record_height">120dp</dimen>
+    <dimen name="start_record_bg_width">140dp</dimen>
+    <dimen name="start_record_bg_height">140dp</dimen>
 </resources>
