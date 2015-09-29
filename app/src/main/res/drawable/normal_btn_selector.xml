@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_disable_btn" android:state_enabled="false" />
+    <item android:drawable="@drawable/shape_focus_btn" android:state_selected="true"/>
+    <item android:drawable="@drawable/shape_focus_btn" android:state_pressed="true"/>
+    <item android:drawable="@drawable/shape_normal_btn"/>
+</selector>

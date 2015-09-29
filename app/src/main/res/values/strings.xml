@@ -3,4 +3,6 @@
     <string name="action_settings">设置</string>
     <string name="start_record">开始录音</string>
     <string name="title_activity_add_record">新增录音</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
 </resources>

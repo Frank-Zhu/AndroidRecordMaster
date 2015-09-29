@@ -118,4 +118,6 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     //图片加载  代码地址-----> https://github.com/square/picasso
     compile 'com.squareup.picasso:picasso:2.5.2'
+    //L动画库  代码地址-----> https://github.com/ozodrukh/CircularReveal
+    compile 'com.github.ozodrukh:CircularReveal:1.1.1@aar'
 }
